@@ -1,0 +1,41 @@
+.myBaniere{
+    background-image: url('./images/banier2.png' );
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.texts{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #fff;
+    margin-left: -250px;
+    z-index: 1000;
+}
+.start{
+    width: 150px;
+}
+.bleu{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    opacity: 20%;
+    border-radius: 50%;
+    z-index: 0;
+    margin-left: 250px;
+}
+@media screen and (max-width: 1000px) {
+.bleu{
+        margin-left: 0px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+.bleu{
+        width: 290px;
+        height: 290px;
+    }
+    
+}
